@@ -1,0 +1,5 @@
+---
+- name: copy web index file to apache directory
+  copy:
+        src: tasks/index.html
+        dest: /var/www/html/

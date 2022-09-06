@@ -1,5 +1,0 @@
----
-- name: ufw module demo
-  hosts: all
-  roles:
-    apache
